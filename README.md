@@ -19,3 +19,6 @@ An unauthenticated attacker can access the /FrameSetCore.html file via HTTP, whi
 
 ## Poc
 `/FrameSetCore.html`
+![](./poc-1.png)
+
+![](./poc-2.png)
