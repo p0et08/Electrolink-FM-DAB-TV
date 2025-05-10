@@ -19,6 +19,14 @@ An unauthenticated attacker can access the /FrameSetCore.html file via HTTP, whi
 
 ## Poc
 `/FrameSetCore.html`
+
 ![](./poc-1.png)
 
 ![](./poc-2.png)
+
+## Suggested Fixes
+1 Access Control: Restrict access to sensitive files using authentication mechanisms.
+2 Code Refactoring: Remove hard-coded credentials from JavaScript files.
+3 Data Masking: Avoid storing sensitive information in client-side resources.
+4 Security Review: Conduct a thorough security audit to detect similar vulnerabilities.
+5 Monitoring & Alerts: Implement monitoring and alerting for unauthorized access attempts.
